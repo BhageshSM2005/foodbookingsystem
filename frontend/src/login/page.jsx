@@ -142,7 +142,6 @@ export default function LoginRegisterPage() {
               </div>
             </div>
           </div>
-
           {/* Right Side - Form */}
           <div className="w-full lg:w-1/2 flex items-center justify-center p-6 sm:p-12">
             <div className="w-full max-w-md slide-in">
