@@ -88,7 +88,7 @@ async function checkout(){
       setCart([]); // clear cart
       alert(`Order placed (id ${j.order_id}). Payment status: ${j.payment_status}`);
       // redirect to order page
-      window.location = `order.html?order_id=${j.order_id}`;
+      window.location.replace( `order/?order_id=${j.order_id}`);
     } else {
       alert(j.message || 'Checkout failed');
     }
